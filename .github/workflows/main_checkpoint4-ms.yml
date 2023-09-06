@@ -48,4 +48,4 @@ jobs:
         app-name: 'checkpoint4-ms'
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_7cc9bc4a0d314fc19865e21365e078ed }}
-        images: 'index.docker.io/${{ secrets.AzureAppService_ContainerUsername_af368d84077f476eb8dd9cfef1cea18b }}/checkpoint4:${{ github.sha }}'
+        images: 'index.docker.io/cauepalma/checkpoint4'
