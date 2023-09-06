@@ -30,7 +30,7 @@ jobs:
       uses: docker/build-push-action@v3
       with:
         push: true
-        tags: index.docker.io/${{ secrets.AzureAppService_ContainerUsername_af368d84077f476eb8dd9cfef1cea18b }}/checkpoint4:${{ github.sha }}
+        tags: index.docker.io/cauepalma/checkpoint4
         file: ./Dockerfile
 
   deploy:
